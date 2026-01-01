@@ -6,7 +6,13 @@ import Logo from "./logo";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-900 text-black h-16 flex items-center justify-between px-50">
+    <div className="
+      h-20
+      flex items-center justify-between
+      sticky top-0 z-50
+      bg-slate-900
+      px-4 sm:px-8 md:px-16 lg:px-24
+    ">
       <Logo />
       <Links />
       <Resume />

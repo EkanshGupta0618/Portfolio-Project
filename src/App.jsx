@@ -1,10 +1,10 @@
-import { memo } from 'react';
-import Navbar from './components/navbar/navbar';
-import About_us from './components/intro/about_us';
+import { memo } from "react";
+import Navbar from "./components/navbar/navbar";
+import About_us from "./components/intro/about_us";
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <About_us />
     </div>

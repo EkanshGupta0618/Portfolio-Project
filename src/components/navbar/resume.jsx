@@ -1,13 +1,22 @@
-import { memo } from 'react';
+import { memo } from "react";
 
 const Resume = () => {
   return (
-    <div>
-      <button className="bg-white hover:bg-blue-600 hover:text-white text-black px-4 py-2 rounded flex items-center gap-3 transition-all duration-300 hover:scale-105">
-        <i className="ri-download-line"></i>
-        <span>Resume</span>
-      </button>    
-      </div>
+    <div className="flex items-center">
+      <button
+        className="
+          bg-white hover:bg-blue-600 hover:text-white text-black
+          px-4 py-2 sm:px-5 sm:py-2.5
+          text-sm sm:text-base
+          rounded-2xl
+          flex items-center gap-3
+          transition-all duration-300 hover:scale-105
+          whitespace-nowrap
+        "
+      >
+        <span>Let's Talk</span>
+      </button>
+    </div>
   );
 };
 
