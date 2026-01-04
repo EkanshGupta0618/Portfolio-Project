@@ -10,8 +10,7 @@ const IntroText = () => {
         bg-linear-to-br from-slate-900 via-slate-900
         backdrop-blur-lg border border-white/10
         h-12 w-70
-        mt-16 sm:mt-20
-        flex items-center justify-center gap-3 tracking-wide
+        flex items-center justify-center gap-3
       ">
         <span className="h-2.5 w-2.5 rounded-full bg-green-400 shadow-[0_0_8px_#22c55e]" />
         <span className="text-green-400">Available for new projects</span>
@@ -20,7 +19,7 @@ const IntroText = () => {
       {/* heading */}
       <div className="mt-10 sm:mt-15">
         <span className="
-          text-4xl sm:text-6xl md:text-7xl lg:text-8xl
+          text-5xl sm:text-6xl md:text-7xl lg:text-8xl
           text-slate-100 font-extrabold leading-none
         ">
           Designing the
@@ -41,8 +40,8 @@ const IntroText = () => {
         text-slate-300 tracking-wider
         max-w-3xl
       ">
-        I'm Ekansh Gupta, a Full Stack Developer specializing <br />
-        in building exceptional digital experiences. I craft accessible, <br />
+        I'm Ekansh Gupta, a Full Stack Developer specializing
+        in building exceptional digital experiences.<br />I craft accessible,
         pixel-perfect, and performant web applications.
       </span>
     </div>
